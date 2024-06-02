@@ -1,0 +1,15 @@
+NAME: ScanSalon
+CATEGORY_FILE_PATH: data/ScanSalon/ScanSalon.json
+CD_FILE_PATH: ./data/ScanSalon/%s/%s.csv
+CATEGORY: chair # chair/sofa/lamp/table/car/bathhub/cabinet/bookshelf/bed/trash_bin
+TRANSFORM: RandomRotateAndDisplacementPoints # RandomRotatePoints/RandomRotateAndDisplacementPoints
+N_POINTS: 16384
+N_RENDERINGS: 8
+PARTIAL_POINTS_PATH: ./data/ScanSalon/%s/partial/%s/%s
+COMPLETE_POINTS_PATH: ./data/ScanSalon/%s/complete/%s/%s
+CARS: FALSE
+ONLYROTATE: FALSE
+REGISTRATION: FALSE
+CDL2_THRESHOLD: 0.1
+CD_SELECT: TRUE
+TRAIN_SAMPLES_NUM: 15
